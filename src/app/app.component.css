@@ -1,0 +1,52 @@
+.card {
+  box-shadow: 0 10px 8px 0 rgba(0, 0, 0, 0.2);
+  max-width:2100px;
+  margin: 20px;
+  text-align: center;
+  background-color: aqua;
+  margin-bottom: 30px;
+}
+
+.image {
+  width: 13%;
+  border-radius: 200%;
+  padding: 7px;
+  background-color: white;
+  box-shadow: 0 10px 10px 0 rgba(0, 3, 3, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  margin: 25px;
+  height: 250px;
+
+}
+
+.title {
+  color: rgb(0, 0, 0);
+  font-size: 18px;
+  text-align: left;
+  top: 8px;
+  bottom: 8px;
+  right: 16px;
+  font-size: 18px;
+  padding: 10px;
+  font-family:sans-serif;
+  padding-left: 20px;
+
+}
+
+.navbar {
+  margin: 20px;
+  background-color: aqua;
+  padding: 10px;
+  color: black;
+
+}
+
+.container-fluid {
+  justify-content: start;
+  color: rgb(242, 241, 248) ;
+  font-size: 20px;
+  padding: 10px;
+  font-family:sans-serif;
+}
+
+
+
