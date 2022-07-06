@@ -2,24 +2,43 @@
   box-shadow: 0 10px 8px 0 rgba(0, 0, 0, 0.2);
   max-width:2100px;
   margin: 20px;
-  text-align: center;
-  background-color: aqua;
+  text-align: left;
+  background-color: rgb(0, 0, 0);
   margin-bottom: 30px;
+  font-style:normal;
+  color:aqua;
 }
 
-.image {
-  width: 13%;
-  border-radius: 200%;
+.image-1 {
+  position: absolute;
+  top: 30px;
+  left: 20px;
+  width: 250px;
+  border-radius: 100%;
   padding: 7px;
   background-color: white;
   box-shadow: 0 10px 10px 0 rgba(0, 3, 3, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
   margin: 25px;
-  height: 250px;
+  height: 270px;
+  overflow: hidden;
+  object-fit:cover;
+  object-position:top;
+}
 
+.image-2 {
+  width: 1970px;
+  overflow: hidden;
+  object-fit:cover;
+  object-position:top;
+  padding: 7px;
+  border-radius: 25px;
+  background-color: aliceblue;
+  margin: 20px;
+  height: 350px;
 }
 
 .title {
-  color: rgb(0, 0, 0);
+  color: aqua;
   font-size: 18px;
   text-align: left;
   top: 8px;
@@ -34,19 +53,37 @@
 
 .navbar {
   margin: 20px;
-  background-color: aqua;
+  background-color: rgb(0, 0, 0);
   padding: 10px;
-  color: black;
+  color: rgb(255, 255, 255);
 
 }
 
 .container-fluid {
   justify-content: start;
-  color: rgb(242, 241, 248) ;
+  color: rgb(255, 255, 255) ;
   font-size: 20px;
-  padding: 10px;
+  padding: 5px;
   font-family:sans-serif;
 }
 
+.icon-1 {
+  margin-left: 420px;
+  color: rgb(226, 33, 200);
+}
 
+.icon-2 {
+  margin-left: 30px;
+  fill: blue;
+}
+
+.icon-3 {
+  margin-left: 30px;
+  font-size: medium;
+}
+
+.icon-4 {
+  margin-left: 30px;
+  fill: blue;
+}
 
