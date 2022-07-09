@@ -6,6 +6,9 @@ import { AppComponent } from './app.component';
 import { AboutComponent } from './Nav/about/about.component';
 import { EduComponent } from './Nav/edu/edu.component';
 import { SkillComponent } from './Nav/skill/skill.component';
+import { BannerComponent } from './banner/banner.component';
+import { NavbarComponent } from './navbar/navbar.component';
+
 
 @NgModule({
   declarations: [
@@ -13,6 +16,8 @@ import { SkillComponent } from './Nav/skill/skill.component';
     AboutComponent,
     EduComponent,
     SkillComponent,
+    BannerComponent,
+    NavbarComponent,
   ],
   imports: [
     BrowserModule,

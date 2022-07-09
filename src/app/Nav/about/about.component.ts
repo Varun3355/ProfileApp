@@ -1,4 +1,5 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, OnInit, Output, EventEmitter } from '@angular/core';
+import { Router } from '@angular/router';
 
 @Component({
   selector: 'app-about',
@@ -7,12 +8,8 @@ import { Component, OnInit } from '@angular/core';
 })
 export class AboutComponent implements OnInit {
 
-  constructor() { }
-
+  constructor(private router:Router) { }
+   @Output() showDataEvent= new EventEmitter<any>();
   ngOnInit(): void {
   }
-  test(){
-    alert("ok");
-  }
-
 }

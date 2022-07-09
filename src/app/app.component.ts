@@ -7,4 +7,8 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'Profile-App';
+  data="";
+  showData(item:any) {
+    this.data="any";
+  }
 }

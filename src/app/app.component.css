@@ -68,22 +68,23 @@
 }
 
 .icon-1 {
-  margin-left: 420px;
+  margin-left: 1430px;
   color: rgb(226, 33, 200);
 }
 
 .icon-2 {
   margin-left: 30px;
-  fill: blue;
+  fill: #1d76e7;;
 }
 
 .icon-3 {
   margin-left: 30px;
   font-size: medium;
+  fill: white;
 }
 
 .icon-4 {
   margin-left: 30px;
-  fill: blue;
+  fill: rgb(58, 161, 245);
 }
 
