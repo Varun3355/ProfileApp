@@ -4,7 +4,7 @@ import { AboutComponent } from './Nav/about/about.component';
 
 const routes: Routes = [
   {
-    path:'',redirectTo:'about', pathMatch:'full'
+    path:'',redirectTo:'', pathMatch:'full'
   },
   {
     path:'about', component:AboutComponent
